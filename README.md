@@ -9,7 +9,7 @@ This documentation is a part of [verify-checksum-cheatsheet](https://github.com/
 ## Example
 
 - Binary: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.3/kustomize_v4.1.3_darwin_amd64.tar.gz
-- Checksum: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.3/checksums.txt -o kustomize.checksums.txt
+- Checksum: https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.3/checksums.txt
 
 ```bash
 #!/usr/bin/env bash
