@@ -11,6 +11,6 @@ curl -sL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomi
 # Verify the checksum
 grep -e "kustomize_v${KUSTOMIZE_VERSION}_darwin_amd64.tar.gz$" kustomize.checksums.txt | shasum --check - || (echo "Error: Not match kustomize checksum." && exit 1)
 # Extract tar.gz to bin/
-tar zxvf kustomize.tar.gz -C "${BIN_DIR}"
+tar zxvf "kustomize_v${KUSTOMIZE_VERSION}_darwin_amd64.tar.gz" -C "${BIN_DIR}"
 # Add permission for executable
 chmod +x "${BIN_DIR}/kustomize"

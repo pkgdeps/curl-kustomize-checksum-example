@@ -10,4 +10,4 @@ jobs:
       - name: Install
         run: ./install.sh
       - name: Test
-        run: jq --version
+        run: ./bin/kustomize version

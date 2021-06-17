@@ -32,4 +32,4 @@ chmod +x "${BIN_DIR}/kustomize"
 
 ## Test
 
-    ./bin/kustomize --version
+    ./bin/kustomize version
