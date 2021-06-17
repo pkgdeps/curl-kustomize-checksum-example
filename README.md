@@ -33,3 +33,8 @@ chmod +x "${BIN_DIR}/kustomize"
 ## Test
 
     ./bin/kustomize version
+
+## Related
+
+- [verify-checksum-cheatsheet](https://github.com/pkgdeps/verify-checksum-cheatsheet).
+- [pkgdeps/curl-jq-checksum-example](https://github.com/pkgdeps/curl-jq-checksum-example)
