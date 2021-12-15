@@ -34,6 +34,8 @@ grep -e "kustomize_v${KUSTOMIZE_VERSION}_darwin_amd64.tar.gz$" kustomize.checksu
 tar zxvf "kustomize_v${KUSTOMIZE_VERSION}_darwin_amd64.tar.gz" -C "${BIN_DIR}"
 # Add permission for executable
 chmod +x "${BIN_DIR}/kustomize"
+# Remove unused files
+rm "kustomize_v${KUSTOMIZE_VERSION}_darwin_amd64.tar.gz" kustomize.checksums.txt
 ```
 
 ## Test
